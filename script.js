@@ -14,8 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
     showCover: true,
     usePortrait: true,
     mobileScrollSupport: true,
-    swipeDistance: 20,
-    clickEventForward: true,
+    swipeDistance: 45,
+    clickEventForward: false,
+    disableFlipByClick: true,
     flippingTime: 650,
     useMouseEvents: true
   });
